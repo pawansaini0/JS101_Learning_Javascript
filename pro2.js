@@ -1,6 +1,8 @@
-let one=1
-let two=2
-let three=3
-let four=4
-let five=5;
-console.log((one*2)+(two*2)+(three*2)+(four*2)+(five*2))
+//Problem 2 : Given any character, if it is a vowel print "Vowel"
+
+let char="i";
+if(char=="e"||char=="u"||char=="o"||char=="i"||char=="a"){
+  console.log("vowel")
+}else{
+  console.log("consonant")
+}

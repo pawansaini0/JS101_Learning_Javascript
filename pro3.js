@@ -1,13 +1,8 @@
-let one=1
-let two=2
-let three=3
-let four=4
-let five=5
-let six=6
+//Problem 3 : Given and character if it is a consonant print "Consonant"
 
-two=two*2
-five=five*2
-six=six*2
-three=three*3
-four=four*3
-console.log(one+two+three+four+five+six)
+let char="k";
+if(char=="e"||char=="u"||char=="o"||char=="i"||char=="a"){
+  console.log("vowel")
+}else{
+  console.log("consonant")
+}
